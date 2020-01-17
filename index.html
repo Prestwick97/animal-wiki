@@ -13,64 +13,26 @@
 <body>
   <div class="container">
     <h1>Found Out Which Celebrity Would You Match With?</h1>
-    <h2>Pick your favorite type of music:</h2>
-    <div class="radio">
-      <label>
-        <input type="radio" name="music" value="rock" id="ro"checked>
-        Rock
-      </label>
-    </div>
-    <div class="radio">
-        <label>
-          <input type="radio" name="music" value="pop" id="po">
-          Pop
-        </label>
-      </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="music" value="electronic" id="el">
-        Electronic
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="music" value="country" id="co">
-        Country
-      </label>
-    </div>
-    <h2>If you find a baby in an alley, what would you do?</h2>
-    <div class="radio">
-        <label>
-          <input type="radio" name="baby" value="assassin" id="as"checked>
-          Raise it to be a trained assassin
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="baby" value="organ" id="or">
-          Raise and invest in its organs for the black market
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="baby" value="ignore" id="ig">
-          Ignore it
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="baby" value="raise" id="ra">
-          Raise it like a normal human being like you should be doing
-        </label>
-      </div>
-    <button type="submit" class="btn btn-success">Submit</button>
-    <div class="well" id="depp">
-      <img src="https://shawetcanada.files.wordpress.com/2017/08/johnny-depp-feature.jpg?quality=80&strip=all&w=450&h=300&crop=1" alt="JD">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ad officia iusto! Consectetur, hic dolores blanditiis repudiandae nostrum totam accusantium architecto inventore praesentium nemo, necessitatibus reiciendis consequuntur, eligendi possimus cum.</p>
-    </div>
-    <div class="well" id="leo">
-      <img src="https://66.media.tumblr.com/b590beda2aec1001af0283c3bab2ffe6/tumblr_pehitoKdZr1tc5gvpo9_250.png" alt="leo">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laboriosam provident, sint iste esse beatae cumque, quod nihil ipsum ullam, dolores facilis voluptatum molestias libero soluta recusandae excepturi cupiditate harum.</p>
+    <form id="celebrity">
+      <select class="form-control" id="beverage">
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+        <option value="4">Water</option>
+      </select>
+
+      <select class="form-control" id="food">
+        <option value="a">Pizza</option>
+        <option value="b">Salad</option>
+        <option value="c">Popcorn</option>
+        <option value="d">Candy</option>
+      </select>
+    
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <div id="jd">
+      <img src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/Jack-Sparrow.jpg" alt="JD">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea expedita iure deserunt inventore adipisci illum labore animi cupiditate suscipit quod, provident similique fuga,praesentium repudiandae perferendis! Explicabo, velit sed.</p>
     </div>
   </div>    
 </body>
